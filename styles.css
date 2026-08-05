@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: snow;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 5px solid rgb(58, 58, 58);
+  flex-wrap: wrap;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 45px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  font-size: 1.8rem;
+  font-weight: 500;
+  transition: 0.3s ease;
+  text-decoration: none;
+  color: darkslategray;
+}
+
+nav a:hover,
+nav a:active {
+  color: darkcyan;
+  border-bottom: 3px solid darkcyan;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(0, 0, 128);
+  color: snow;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 1.3rem;
+  background-color: rgb(58, 58, 58);
+  color: snow;
+}
+
+#about {
+  display: flex;
+  margin : 20px;
+  font-size: 1.3rem;
+  padding: 10px;  
+  gap: 20px;
+  background-color: rgb(58, 58, 58);
+  color: snow;
+}
+
+#contact p {
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.3rem;
+  text-align: center;
+  background-color: rgb(58, 58, 58);
+  color: snow;
+}
+
+#contact ul {
+  list-style: none;
+  gap: 40px;
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+}
+
+#projects p {
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.3rem;
+  text-align: center;
+  background-color: rgb(58, 58, 58);
+  color: snow;
+}
+
+#projects ul {
+  list-style: none;
+  display: flex;
+  margin: 20px;
+}
+
+#projects ul li {
+  border: 5px solid rgb(58, 58, 58);
+}
